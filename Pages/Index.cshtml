@@ -1,0 +1,34 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<form method="post">
+    <h3>Errors List ...</h3>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var error in Model.Errors)
+            {
+                <tr>
+                    <td>@error.Id</td>
+                    <td>@error.Title</td>
+                    <td>@error.Category</td>
+                    <td>@error.Description</td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@error.Id">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-page="./Create">Create</a>
+</form>
+

@@ -1,0 +1,16 @@
+﻿@page
+@model ErrorList.Pages.CreateModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<p>Enter Error Details: </p>
+<form method="post">
+    <div>Title:         <input asp-for="Error.Title"/></div>
+    <div>Category:      <input asp-for="Error.Category" /></div>
+    <div>Description:   <input asp-for="Error.Description" /></div>
+    <input type="submit" />
+</form>
+

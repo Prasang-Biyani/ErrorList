@@ -1,0 +1,22 @@
+﻿@page "{id:int}"
+@model ErrorList.Pages.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit Error - @Model.Error.Id</h2>
+<form method="post">
+    <input asp-for="Error.Id" type="hidden" />
+    <div>
+        <label asp-for="Error.Id"></label>
+        <div>
+            <input asp-for="Error.Title" />
+            <input asp-for="Error.Category" />
+            <input asp-for="Error.Description" />
+        </div>
+    </div>
+    <div>
+        <button type="submit">Save</button>
+    </div>
+</form>
+

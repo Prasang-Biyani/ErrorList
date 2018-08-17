@@ -1,0 +1,12 @@
+C:\Tutorials\ErrorList\ErrorList\bin\Debug\netcoreapp2.0\ErrorList.deps.json
+C:\Tutorials\ErrorList\ErrorList\bin\Debug\netcoreapp2.0\ErrorList.runtimeconfig.json
+C:\Tutorials\ErrorList\ErrorList\bin\Debug\netcoreapp2.0\ErrorList.runtimeconfig.dev.json
+C:\Tutorials\ErrorList\ErrorList\bin\Debug\netcoreapp2.0\ErrorList.dll
+C:\Tutorials\ErrorList\ErrorList\bin\Debug\netcoreapp2.0\ErrorList.pdb
+C:\Tutorials\ErrorList\ErrorList\obj\Debug\netcoreapp2.0\ErrorList.csprojAssemblyReference.cache
+C:\Tutorials\ErrorList\ErrorList\obj\Debug\netcoreapp2.0\ErrorList.csproj.CoreCompileInputs.cache
+C:\Tutorials\ErrorList\ErrorList\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Tutorials\ErrorList\ErrorList\obj\Debug\netcoreapp2.0\ErrorList.AssemblyInfoInputs.cache
+C:\Tutorials\ErrorList\ErrorList\obj\Debug\netcoreapp2.0\ErrorList.AssemblyInfo.cs
+C:\Tutorials\ErrorList\ErrorList\obj\Debug\netcoreapp2.0\ErrorList.dll
+C:\Tutorials\ErrorList\ErrorList\obj\Debug\netcoreapp2.0\ErrorList.pdb
